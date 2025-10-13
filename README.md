@@ -6,7 +6,7 @@
 
 ## Idea
 
-The idea, design, assets (fonts, images, icons) for the Social Links Profile UI project are taken from
+The idea, design, assets (fonts, images, icons) for the FAQ accordion UI project are taken from
 [FrontendMentor.io](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz).
 
 ## Tech stack
