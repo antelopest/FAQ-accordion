@@ -1,12 +1,13 @@
 :root {
-  --color-white: hsl(0deg, 100%, 100%);
-  --color-purple-100: hsl(275deg, 100%, 97%);
-  --color-purple-600: hsl(292deg, 16%, 49%);
-  --color-purple-950: hsl(292, 42%, 14%);
+    --color-white: hsl(0deg, 100%, 100%);
+    --color-purple-100: hsl(275deg, 100%, 97%);
+    --color-purple-500: hsl(280deg, 83%, 54%);
+    --color-purple-600: hsl(292deg, 16%, 49%);
+    --color-purple-950: hsl(292, 42%, 14%);
 
-  --font-size: 16px;
-  --font-family: 'WorkSans';
-  --font-weight-400: 400;
-  --font-weight-600: 600;
-  --font-weight-700: 700;
+    --font-size: 16px;
+    --font-family: 'WorkSans';
+    --font-weight-400: 400;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
 }

@@ -1,11 +1,21 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import './App.css'
+
+import Layout from "./components/Layout/Layout";
+import FAQ from "./components/FAQ/FAQ";
 
 function App() {
 
   return (
-    <h1>App</h1>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<FAQ />} />
+        </Routes>
+      </Layout>
+    </Router>
   )
 }
 
-export default App
+export default App;
