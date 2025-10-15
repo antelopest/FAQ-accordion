@@ -10,9 +10,7 @@ function App() {
   return (
     <Router>
       <Layout>
-        <Routes>
-          <Route path="/" element={<FAQ />} />
-        </Routes>
+        <FAQ />
       </Layout>
     </Router>
   )

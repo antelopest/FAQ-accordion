@@ -7,7 +7,7 @@ export default function SvgIcon(
   useEffect(() => {
     let isMounted = true;
 
-    const iconUrl = `/icons/${name}.svg`;
+    const iconUrl = `${import.meta.env.BASE_URL}icons/${name}.svg`;
 
     fetch(iconUrl)
         .then((res) => {
